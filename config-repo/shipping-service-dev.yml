@@ -1,8 +1,10 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/shippingdb
-    username: shipping_user
+    username: postgres
     password: secret
+    driver-class-name: org.postgresql.Driver
+    
   jpa:
     hibernate:
       ddl-auto: update
